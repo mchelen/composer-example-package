@@ -1,4 +1,5 @@
 <?php
+namespace Example;
 
 class Foo {
 
