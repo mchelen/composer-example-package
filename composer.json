@@ -1,12 +1,12 @@
 {
-    "name": "example/example",
+    "name": "some/example",
     "description": "an example",
     "require": {
         "monolog/monolog": "^1.17"
     },
     "autoload": {
         "psr-4": {
-            "Example\\Example\\": "src"
+            "Some\\Example\\": "src"
         }
     }
 

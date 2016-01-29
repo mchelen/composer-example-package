@@ -1,5 +1,5 @@
 <?php
-namespace Example\Example;
+namespace Some\Example;
 
 class Foo {
 
