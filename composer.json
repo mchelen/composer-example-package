@@ -1,0 +1,12 @@
+{
+    "name": "example/example",
+    "require": {
+        "monolog/monolog": "^1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "example\\example": "Foo"
+        }
+    }
+
+}
