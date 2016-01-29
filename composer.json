@@ -6,7 +6,7 @@
     },
     "autoload": {
         "psr-4": {
-            "example\\example\\": "Foo"
+            "Example\\Example\\": "src"
         }
     }
 
