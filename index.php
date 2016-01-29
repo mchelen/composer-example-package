@@ -12,7 +12,13 @@ $log->pushHandler(new StreamHandler('php://stderr', Logger::DEBUG));
 
 $foo = new Foo($log);
 
-$foo->bar("qux");
+$foo->bar('qux');
 
 
+try {
+  $foo->bar('');
+}
+catch (Exception $e) {
+  $log->Notice('Caught exception: ' . $e->getMessage()); 
+}
 

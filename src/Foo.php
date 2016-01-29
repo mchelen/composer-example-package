@@ -9,7 +9,10 @@ class Foo {
       $this->logger = $logger;
   }
   public function bar($baz) {
-      $this->logger->addDebug($baz);
+      if (strlen($baz)<1) {
+        throw new \Exception("string is insufficient length");
+      }
+      $this->logger->addNotice($baz);
   }
     
 }
