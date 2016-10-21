@@ -1,13 +1,8 @@
 <?php
 namespace Some\Example;
 
-class Foo {
-
-  private $logger;
+class Foo extends Base {
     
-  public function __construct(\Psr\Log\LoggerInterface $logger) {
-      $this->logger = $logger;
-  }
   public function bar($baz) {
       $this->logger->addDebug($baz);
   }
