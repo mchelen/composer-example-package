@@ -1,6 +1,6 @@
 
 usage:
 
-  composer install
+    composer install
 
-  php index.php
+    php index.php
